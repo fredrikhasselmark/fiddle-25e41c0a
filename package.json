@@ -1,14 +1,1 @@
-{
-  "type": "module",
-  "dependencies": {
-    "@fastly/js-compute": "^3.0.0"
-  },
-  "devDependencies": {
-    "@fastly/cli": "^10.14.0"
-  },
-  "scripts": {
-    "build": "js-compute-runtime ./src/index.js ./bin/main.wasm",
-    "start": "fastly compute serve",
-    "deploy": "fastly compute publish"
-  }
-}
+{"dependencies":{"@fastly/js-compute":"^3.2.0","jsonwebtoken":"^8.5.1"},"devDependencies":{"@fastly/cli":"^10.14.0"},"name":"fiddle-25e41c0a","scripts":{"build":"js-compute-runtime ./src/index.js ./bin/main.wasm","deploy":"fastly compute publish","start":"fastly compute serve"},"type":"module"}
